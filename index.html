@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>Memory Game</h1>
+
+    <div class="controls">
+      <button id="startBtn" class="start">Start Game</button>
+      <div id="level" class="level">Level: 0</div>
+    </div>
+
+    <p id="status" class="status">Press <strong>Start Game</strong> to begin</p>
+
+    <div class="game-container" id="game">
+      <button class="btn green" id="green" aria-label="green"></button>
+      <button class="btn red" id="red" aria-label="red"></button>
+      <button class="btn yellow" id="yellow" aria-label="yellow"></button>
+      <button class="btn blue" id="blue" aria-label="blue"></button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
